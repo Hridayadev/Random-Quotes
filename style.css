@@ -5,21 +5,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 100vh;
-    background: linear-gradient(to bottom, #afcdb0, #385042);
+    background: linear-gradient(to bottom, #afb0cd, #6a6c9b);
 }
 
 .main {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 h1 {
-    color: #333;
+    color: #007bff;
     margin-bottom: 20px;
 }
 
